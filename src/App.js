@@ -25,7 +25,7 @@ function App() {
         token: _token,
       });
 
-      s.getPlaylist("37i9dQZF1DZ06evO1ahqM0").then((response) =>
+      s.getPlaylist("03wYhnFL95NeWkBeKg9KC2").then((response) =>
         dispatch({
           type: "SET_DISCOVER_WEEKLY",
           discover_weekly: response,
